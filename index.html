@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            padding:1rem;
+        }
+        .example{
+            margin-top:2rem;
+            margin-bottom:.6rem;
+        }
+        .card{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            min-height:5rem;
+            border-radius:.7rem;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            color:#7b7777;
+            font-size:.8rem;
+            margin-bottom:0;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="row">
+            <div class="example">Example 1: Evenly split into 4 columns</div>
+            <div class="col">
+                <div class="card">
+                    Row 1 - Col 1
+                    <p>3 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 1 - Col 2
+                    <p>3 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 1 - Col 3
+                    <p>3 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 1 - Col 4
+                    <p>3 columns</p>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="example">Example 2: Unevenly split into 4 columns</div>
+            <div class="col-6">
+                <div class="card">
+                    Row 2 - Col 1
+                    <p>6 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 2 - Col 2
+                    <p>2 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 2 - Col 3
+                    <p>2 columns</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    Row 2 - Col 4
+                    <p>2 columns</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="example">Example 3: Column wrapping (>12 columns) ~ Try preventing</div>
+            <div class="col-6">
+                <div class="card">
+                    Row 3 - Col 1
+                    <p>6 columns</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    Row 3 - Col 2
+                    <p>4 columns</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    Row 3 - Col 3
+                    <p>3 columns</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="example">Example 4: Responsive columns</div>
+            <div class="col-sm">
+                <div class="card">
+                    Row 4 - Col 1
+                    <p>6 columns (or) 100%</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    Row 4 - Col 2
+                    <p>3 columns (or) 100%</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    Row 4 - Col 3
+                    <p>3 columns (or) 100%</p>
+                </div>
+            </div>
+            <p>Class syntax: col-at what breakpoint and above the next mentioned layout should apply-the layout. Eg:col-sm-3,at sm and above 3 column layout will apply or col-lg, at lg and above remaning row space will be shared.</p>
+        </div>
+        <div class="row">
+            <div class="example">Example 5: <a href="https://www.forbesindia.com/leadership/1927/1" target="_blank">Forbes India: Leadership Page</a></div>
+            <div class="col-lg-9 col-md-8 col-sm-7">
+                <div class="card">
+                    Row 5 - Col 1
+                    <p>9 (or) 8 (or) 7 cols (or) 100%</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-5">
+                <div class="card">
+                    Row 5 - Col 2
+                    <p>3 (or) 4 (or) 5 cols (or) 100%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
